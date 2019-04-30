@@ -1,0 +1,29 @@
+{
+  "name": "ueditor-review",
+  "version": "1.4.3",
+  "description": "review plugin for ueditor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soonwait/ueditor-review.git"
+  },
+  "author": "soonwait",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/soonwait/ueditor-review/issues"
+  },
+  "homepage": "https://github.com/soonwait/ueditor-review#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
